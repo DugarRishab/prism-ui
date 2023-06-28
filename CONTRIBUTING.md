@@ -3,7 +3,7 @@
 
 # Contributing to Prism UI (PUI)
 
-If you're reading this, you're awesome! Thank you for helping us make this project great and being a part of the MUI community. Here are a few guidelines that will help you along the way.
+If you're reading this, you're awesome! Thank you for helping us make this project great and being a part of the PUI community. Here are a few guidelines that will help you along the way. Follow the [Component Guidelines](https://github.com/DugarRishab/prism-ui/blob/main/COMPONENT_GUIDELINES.md) to make awesome components and get your PR accepted right away.
 
 ## Summary
 
@@ -12,6 +12,7 @@ If you're reading this, you're awesome! Thank you for helping us make this proje
   - [Code of Conduct](#code-of-conduct)
   - [A large spectrum of contributions](#a-large-spectrum-of-contributions)
   - [Writting Clean code](#writting-clean-code)
+  - [How to get your proposals accepted?](#how-to-get-your-proposals-accepted)
   - [Your first Pull Request](#your-first-pull-request)
   - [Sending a Pull Request](#sending-a-pull-request)
     - [1. Fork and clone this repository](#1-fork-and-clone-this-repository)
@@ -35,6 +36,21 @@ Writting clean cod eis very important as it gives us the following benifits:
 - Makes code maintenance easier
 
 Please read this blog to help you write better code: [12 Conventions for Writing Clean Code](https://betterprogramming.pub/12-conventions-for-writing-clean-code-e16c51e3939a)
+
+## How to get your proposals accepted?
+
+Writing good proposals are the 1st step towards contributing. If you are submitting new proposals or a solution to a issue, the proposal structure remains the same.
+
+- Provide a summary
+- What is your Motivation?
+- Design details (for new proposals)
+- How to replicate? (for solution to bug issues)
+- General Implementation plan
+- A testing Plan (optional)
+- Risks and Mitigation (if any)
+- Timeline
+
+Following this structure ensures that your proposals will get accepted.
 
 ## Your first Pull Request
 
@@ -69,20 +85,15 @@ cd ./prism-ui
 ### 2. Make changes to the code
 
 - Add all the necessary changes. 
-- Make sure to provide an explanation of the code in the comments at the top. Example
-  
-  ```
-  /*
-  This algo uses 2 pointer method. 1st Pointer moves from the beginiing to the 2nd last of the element and the 2nd Pointer always moves 1 element ahead of the 1st pointer
-  */
+- Make sure to provide an explanation of the code in the comments at the top.
 
-  ```
 ### 3. Commit and push the changes to the forked repo
 
-- Always used active voice while writting commit messages. 
+- Always used active voice while writting commit messages.
 - Try to explain what you did in the title of the commit.
   
 ### 4. Create a pull request (PR)
+
 - Always use the given PR template to make them as informatic as possible
 - Must Follow the PR guidelines to make exceptional PRs
 
