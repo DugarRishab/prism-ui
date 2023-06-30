@@ -22,7 +22,7 @@ These guidelines provide a set of best practices and conventions for creating co
   ├──index.js // Component export
 ```
 
-- See the entire dir of this project [here](/#). You are in no way supposed to disturb this dir without the permission of Maintainers. 
+- See the entire dir of this project [here](https://github.com/DugarRishab/prism-ui/blob/main/_dir.md). You are in no way supposed to disturb this dir without the permission of Maintainers.
   
 ## Component API
 
