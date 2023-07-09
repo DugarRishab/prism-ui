@@ -1,0 +1,261 @@
+.button {
+    position: relative;
+    font-weight: 500;
+}
+.button-bordersmall {
+    text-decoration: none;
+    position: absolute;
+    top: 263px;
+    left: 137px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-8xs) var(--padding-xl);
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+.button1 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--primary);
+    text-align: left;
+}
+.button-bordersmall1 {
+    border: 0;
+    background-color: transparent;
+    top: 211px;
+}
+.button-bordersmall1,
+.button-bordersmall2,
+.button-bordersmall3 {
+    cursor: pointer;
+    padding: var(--padding-8xs) var(--padding-xl);
+    position: absolute;
+    left: 137px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall2 {
+    border: 0;
+    background-color: var(--primary-light);
+    top: 159px;
+}
+.button-bordersmall3 {
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    top: 107px;
+}
+.button4 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+}
+.button-primarysmall {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-100);
+    padding: var(--padding-8xs) var(--padding-xl);
+    background-color: var(--primary);
+    position: absolute;
+    top: 55px;
+    left: 137px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button5 {
+    position: relative;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.button-bordersmall4,
+.button-bordersmall5,
+.button-bordersmall6,
+.button-bordersmall7,
+.button-primarysmall1 {
+    padding: var(--padding-8xs) var(--padding-xl);
+    position: absolute;
+    left: 248px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall4 {
+    text-decoration: none;
+    top: 263px;
+    color: var(--primary);
+}
+.button-bordersmall5,
+.button-bordersmall6,
+.button-bordersmall7,
+.button-primarysmall1 {
+    cursor: pointer;
+    background-color: var(--primary-light);
+}
+.button-bordersmall5 {
+    border: 0;
+    top: 211px;
+}
+.button-bordersmall6,
+.button-bordersmall7,
+.button-primarysmall1 {
+    border: 2px solid var(--primary-light);
+    top: 159px;
+}
+.button-bordersmall7,
+.button-primarysmall1 {
+    border: 1px solid var(--primary);
+    top: 107px;
+}
+.button-primarysmall1 {
+    border: 1px solid var(--color-gray-100);
+    background-color: var(--primary-dark);
+    top: 55px;
+}
+.button-bordersmall10,
+.button-bordersmall8,
+.button-bordersmall9 {
+    padding: var(--padding-8xs) var(--padding-xl);
+    left: 359px;
+    border-radius: var(--br-11xl);
+}
+.button-bordersmall8 {
+    text-decoration: none;
+    position: absolute;
+    top: 263px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+.button-bordersmall10,
+.button-bordersmall9 {
+    cursor: pointer;
+    border: 0;
+}
+.button-bordersmall9 {
+    background-color: transparent;
+    position: absolute;
+    top: 211px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall10 {
+    background-color: var(--primary-light);
+    top: 159px;
+}
+.button-bordersmall10,
+.button-bordersmall11,
+.button-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall11 {
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    padding: var(--padding-8xs) var(--padding-xl);
+    background-color: transparent;
+    top: 107px;
+    left: 359px;
+    border-radius: var(--br-11xl);
+}
+.button-wrapper {
+    top: 5px;
+    left: 20px;
+}
+.button-primarysmall-child {
+    position: absolute;
+    top: 0;
+    left: 54px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0.3);
+    width: 50px;
+    height: 50px;
+}
+.button-primarysmall2 {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-100);
+    padding: 0;
+    background-color: var(--primary-dark);
+    position: absolute;
+    top: 55px;
+    left: 359px;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    width: 79px;
+    height: 25px;
+    overflow: hidden;
+}
+.default,
+.hover,
+.onclick {
+    position: absolute;
+    top: 28px;
+    left: 137px;
+    font-weight: 500;
+}
+.hover,
+.onclick {
+    top: 31px;
+    left: 248px;
+}
+.onclick {
+    left: 366px;
+}
+.filled,
+.ghost,
+.link,
+.outlined,
+.text {
+    position: absolute;
+    top: 60px;
+    left: 21px;
+    font-weight: 500;
+}
+.ghost,
+.link,
+.outlined,
+.text {
+    top: 213px;
+}
+.ghost,
+.link,
+.outlined {
+    top: 258px;
+}
+.ghost,
+.outlined {
+    top: 164px;
+}
+.outlined {
+    top: 112px;
+}
+.buttons {
+    position: relative;
+    background-color: #131313;
+    width: 100%;
+    height: 321px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}

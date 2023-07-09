@@ -1,0 +1,235 @@
+.button {
+    position: relative;
+    font-weight: 500;
+}
+.button-bordersmall {
+    text-decoration: none;
+    position: absolute;
+    top: 245px;
+    left: 76px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-8xs) var(--padding-xl);
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+.button1 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-gray-200);
+    text-align: left;
+}
+.button-bordersmall1 {
+    border: 0;
+    background-color: transparent;
+    top: 199px;
+}
+.button-bordersmall1,
+.button-bordersmall2,
+.button-bordersmall3 {
+    cursor: pointer;
+    padding: var(--padding-8xs) var(--padding-xl);
+    position: absolute;
+    left: 76px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall2 {
+    border: 0;
+    background-color: var(--color-gray-400);
+    top: 152px;
+}
+.button-bordersmall3 {
+    border: 1px solid var(--color-gray-200);
+    background-color: transparent;
+    top: 101px;
+}
+.button4 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+}
+.button-primarysmall {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-8xs) var(--padding-xl);
+    background-color: #292929;
+    position: absolute;
+    top: 47px;
+    left: 76px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button5 {
+    position: relative;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.button-bordersmall4 {
+    text-decoration: none;
+    position: absolute;
+    top: 245px;
+    left: 187px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-8xs) var(--padding-xl);
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+.button-bordersmall5 {
+    border: 0;
+    top: 199px;
+}
+.button-bordersmall5,
+.button-bordersmall6,
+.button-bordersmall7,
+.button-primarysmall1 {
+    cursor: pointer;
+    padding: var(--padding-8xs) var(--padding-xl);
+    background-color: var(--color-gray-400);
+    position: absolute;
+    left: 187px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall6 {
+    border: 1px solid rgba(19, 19, 19, 0.2);
+    top: 152px;
+}
+.button-bordersmall7,
+.button-primarysmall1 {
+    border: 1px solid var(--color-gray-200);
+    top: 101px;
+}
+.button-primarysmall1 {
+    border: 1px solid var(--color-gray-100);
+    background-color: var(--color-gray-300);
+    top: 47px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button-bordersmall10,
+.button-bordersmall8,
+.button-bordersmall9 {
+    padding: var(--padding-8xs) var(--padding-xl);
+    left: 298px;
+    border-radius: var(--br-11xl);
+}
+.button-bordersmall8 {
+    text-decoration: none;
+    position: absolute;
+    top: 245px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+.button-bordersmall10,
+.button-bordersmall9 {
+    cursor: pointer;
+    border: 0;
+}
+.button-bordersmall9 {
+    background-color: transparent;
+    position: absolute;
+    top: 199px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall10 {
+    background-color: var(--color-gray-400);
+    top: 152px;
+}
+.button-bordersmall10,
+.button-bordersmall11,
+.button-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-bordersmall11 {
+    cursor: pointer;
+    border: 1px solid var(--color-gray-200);
+    padding: var(--padding-8xs) var(--padding-xl);
+    background-color: transparent;
+    top: 101px;
+    left: 298px;
+    border-radius: var(--br-11xl);
+}
+.button-wrapper {
+    top: 5px;
+    left: 20px;
+}
+.button-primarysmall-child {
+    position: absolute;
+    top: 0;
+    left: 54px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 50px;
+    height: 50px;
+}
+.button-primarysmall2 {
+    position: absolute;
+    top: 47px;
+    left: 298px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-gray-300);
+    border: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    width: 79px;
+    height: 25px;
+    overflow: hidden;
+    color: var(--color-white);
+}
+.default,
+.hover,
+.onclick {
+    position: absolute;
+    top: 18px;
+    left: 89px;
+    font-weight: 500;
+}
+.hover,
+.onclick {
+    top: 20px;
+    left: 200px;
+}
+.onclick {
+    top: 25px;
+    left: 312px;
+}
+.buttons {
+    position: relative;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 321px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-200);
+    font-family: var(--font-inter);
+}
