@@ -5,28 +5,28 @@
 .button-bordersmall {
     text-decoration: none;
     position: absolute;
-    top: 263px;
-    left: 137px;
+    top: 245px;
+    left: 76px;
     border-radius: var(--br-11xl);
     display: flex;
     flex-direction: row;
     padding: var(--padding-8xs) var(--padding-xl);
     align-items: center;
     justify-content: center;
-    color: var(--primary);
+    color: inherit;
 }
 .button1 {
     position: relative;
     font-size: var(--font-size-xs);
     font-weight: 500;
     font-family: var(--font-inter);
-    color: var(--primary);
+    color: var(--color-gray-200);
     text-align: left;
 }
 .button-bordersmall1 {
     border: 0;
     background-color: transparent;
-    top: 211px;
+    top: 199px;
 }
 .button-bordersmall1,
 .button-bordersmall2,
@@ -34,7 +34,7 @@
     cursor: pointer;
     padding: var(--padding-8xs) var(--padding-xl);
     position: absolute;
-    left: 137px;
+    left: 76px;
     border-radius: var(--br-11xl);
     display: flex;
     flex-direction: row;
@@ -43,13 +43,13 @@
 }
 .button-bordersmall2 {
     border: 0;
-    background-color: var(--primary-light);
-    top: 159px;
+    background-color: var(--color-gray-400);
+    top: 152px;
 }
 .button-bordersmall3 {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--color-gray-200);
     background-color: transparent;
-    top: 107px;
+    top: 101px;
 }
 .button4 {
     position: relative;
@@ -61,13 +61,14 @@
 }
 .button-primarysmall {
     cursor: pointer;
-    border: 1px solid var(--color-gray-100);
+    border: 0;
     padding: var(--padding-8xs) var(--padding-xl);
-    background-color: var(--primary);
+    background-color: #292929;
     position: absolute;
-    top: 55px;
-    left: 137px;
+    top: 47px;
+    left: 76px;
     border-radius: var(--br-11xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -78,68 +79,69 @@
     text-decoration: underline;
     font-weight: 500;
 }
-.button-bordersmall4,
-.button-bordersmall5,
-.button-bordersmall6,
-.button-bordersmall7,
-.button-primarysmall1 {
-    padding: var(--padding-8xs) var(--padding-xl);
+.button-bordersmall4 {
+    text-decoration: none;
     position: absolute;
-    left: 248px;
+    top: 245px;
+    left: 187px;
     border-radius: var(--br-11xl);
     display: flex;
     flex-direction: row;
+    padding: var(--padding-8xs) var(--padding-xl);
     align-items: center;
     justify-content: center;
+    color: inherit;
 }
-.button-bordersmall4 {
-    text-decoration: none;
-    top: 263px;
-    color: var(--primary);
+.button-bordersmall5 {
+    border: 0;
+    top: 199px;
 }
 .button-bordersmall5,
 .button-bordersmall6,
 .button-bordersmall7,
 .button-primarysmall1 {
     cursor: pointer;
-    background-color: var(--primary-light);
+    padding: var(--padding-8xs) var(--padding-xl);
+    background-color: var(--color-gray-400);
+    position: absolute;
+    left: 187px;
+    border-radius: var(--br-11xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-.button-bordersmall5 {
-    border: 0;
-    top: 211px;
+.button-bordersmall6 {
+    border: 1px solid rgba(19, 19, 19, 0.2);
+    top: 152px;
 }
-.button-bordersmall6,
 .button-bordersmall7,
 .button-primarysmall1 {
-    border: 2px solid var(--primary-light);
-    top: 159px;
-}
-.button-bordersmall7,
-.button-primarysmall1 {
-    border: 1px solid var(--primary);
-    top: 107px;
+    border: 1px solid var(--color-gray-200);
+    top: 101px;
 }
 .button-primarysmall1 {
     border: 1px solid var(--color-gray-100);
-    background-color: var(--primary-dark);
-    top: 55px;
+    background-color: var(--color-gray-300);
+    top: 47px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button-bordersmall10,
 .button-bordersmall8,
 .button-bordersmall9 {
     padding: var(--padding-8xs) var(--padding-xl);
-    left: 359px;
+    left: 298px;
     border-radius: var(--br-11xl);
 }
 .button-bordersmall8 {
     text-decoration: none;
     position: absolute;
-    top: 263px;
+    top: 245px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
+    color: inherit;
 }
 .button-bordersmall10,
 .button-bordersmall9 {
@@ -149,15 +151,15 @@
 .button-bordersmall9 {
     background-color: transparent;
     position: absolute;
-    top: 211px;
+    top: 199px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 .button-bordersmall10 {
-    background-color: var(--primary-light);
-    top: 159px;
+    background-color: var(--color-gray-400);
+    top: 152px;
 }
 .button-bordersmall10,
 .button-bordersmall11,
@@ -170,11 +172,11 @@
 }
 .button-bordersmall11 {
     cursor: pointer;
-    border: 1px solid var(--primary);
+    border: 1px solid var(--color-gray-200);
     padding: var(--padding-8xs) var(--padding-xl);
     background-color: transparent;
-    top: 107px;
-    left: 359px;
+    top: 101px;
+    left: 298px;
     border-radius: var(--br-11xl);
 }
 .button-wrapper {
@@ -186,76 +188,48 @@
     top: 0;
     left: 54px;
     border-radius: 50%;
-    background-color: rgba(217, 217, 217, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     width: 50px;
     height: 50px;
 }
 .button-primarysmall2 {
-    cursor: pointer;
-    border: 1px solid var(--color-gray-100);
-    padding: 0;
-    background-color: var(--primary-dark);
     position: absolute;
-    top: 55px;
-    left: 359px;
+    top: 47px;
+    left: 298px;
     border-radius: var(--br-11xl);
+    background-color: var(--color-gray-300);
+    border: 1px solid var(--color-gray-100);
     box-sizing: border-box;
     width: 79px;
     height: 25px;
     overflow: hidden;
+    color: var(--color-white);
 }
 .default,
 .hover,
 .onclick {
     position: absolute;
-    top: 28px;
-    left: 137px;
+    top: 18px;
+    left: 89px;
     font-weight: 500;
 }
 .hover,
 .onclick {
-    top: 31px;
-    left: 248px;
+    top: 20px;
+    left: 200px;
 }
 .onclick {
-    left: 366px;
-}
-.filled,
-.ghost,
-.link,
-.outlined,
-.text {
-    position: absolute;
-    top: 60px;
-    left: 21px;
-    font-weight: 500;
-}
-.ghost,
-.link,
-.outlined,
-.text {
-    top: 213px;
-}
-.ghost,
-.link,
-.outlined {
-    top: 258px;
-}
-.ghost,
-.outlined {
-    top: 164px;
-}
-.outlined {
-    top: 112px;
+    top: 25px;
+    left: 312px;
 }
 .buttons {
     position: relative;
-    background-color: #131313;
+    background-color: #f6f6f6;
     width: 100%;
     height: 321px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-xs);
-    color: var(--color-white);
+    color: var(--color-gray-200);
     font-family: var(--font-inter);
 }

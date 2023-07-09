@@ -1,0 +1,112 @@
+.textfield1,
+.textfield2 {
+    border: 0;
+    background-color: var(--color-gray-400);
+    top: 91px;
+    width: 150px;
+}
+.textfield1 {
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xs);
+    position: absolute;
+    left: 601px;
+    border-radius: var(--br-8xs);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-8xs) var(--padding-mini);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+}
+.textfield2 {
+    left: 407px;
+}
+.textfield2,
+.textfield3,
+.textfield4,
+.textfield5,
+.textfield6 {
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xs);
+    position: absolute;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-8xs) var(--padding-mini);
+    align-items: center;
+    justify-content: flex-start;
+}
+.textfield3 {
+    border: 0;
+    background-color: var(--color-gray-400);
+    top: 91px;
+    left: 213px;
+    width: 150px;
+}
+.textfield4,
+.textfield5,
+.textfield6 {
+    background-color: transparent;
+}
+.textfield4 {
+    border: 1px solid rgba(19, 19, 19, 0.75);
+    top: 141px;
+    left: 212px;
+    width: 152px;
+}
+.textfield5,
+.textfield6 {
+    border: 2px solid var(--color-gray-800);
+    top: 140px;
+    left: 599px;
+    width: 154px;
+}
+.textfield6 {
+    border: 1px solid var(--color-gray-200);
+    top: 141px;
+    left: 406px;
+    width: 152px;
+}
+.default,
+.filled,
+.onhover,
+.oninput,
+.outlined {
+    position: absolute;
+    top: 50px;
+    left: 267px;
+    font-weight: 500;
+}
+.filled,
+.onhover,
+.oninput,
+.outlined {
+    left: 458px;
+}
+.filled,
+.oninput,
+.outlined {
+    left: 653px;
+}
+.filled,
+.outlined {
+    top: 96px;
+    left: 70px;
+}
+.outlined {
+    top: 147px;
+}
+.textfield {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-200);
+    font-family: var(--font-inter);
+}
