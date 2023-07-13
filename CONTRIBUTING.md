@@ -89,7 +89,7 @@ cd ./prism-ui
 
 ### 3. Commit and push the changes to the forked repo
 
-- Always used active voice while writting commit messages.
+- Always used active voice while writing commit messages.
 - Try to explain what you did in the title of the commit.
   
 ### 4. Create a pull request (PR)

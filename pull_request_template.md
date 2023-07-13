@@ -15,7 +15,7 @@ _This is a template on how to fill out a PR properly._
  
 ## Related Issue
 
-<!-- Mention any new issue you might have encountered or may have created becouse of this PR -->
+<!-- Mention any new issue you might have encountered or may have created because of this PR -->
 
 ## Acceptance Criteria
 
