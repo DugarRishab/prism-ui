@@ -68,7 +68,7 @@ These guidelines provide a set of best practices and conventions for creating co
 - Provide code snippets and live examples to demonstrate proper usage.
 - Update the documentation whenever there are significant changes or additions to a component.
 
-## Testing
+## Testing (optional)
 
 - Write unit tests for components to ensure correctness and prevent regressions.
 - Test component rendering, prop validation, and interactions.
